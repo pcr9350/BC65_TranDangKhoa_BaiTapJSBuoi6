@@ -22,22 +22,23 @@
     <!-- Bài 1 -->
     <div class="container">
       <h3 class="bg-primary py-3 text-center">
-        TÌM SỐ NGUYÊN DƯƠNG NHỎ NHỨT SAO CHO 1 + 2 + ... + N > 10000
+        BÀI 1: TÌM SỐ NGUYÊN DƯƠNG NHỎ NHỨT SAO CHO 1 + 2 + ... + N > 10000
       </h3>
       <button id="handleNumber" class="btn btn-success">Kết quả</button>
       <div
         id="result1"
         class="bg-danger text-center my-3 font-weight-bold"
+        style="font-size: 1.5rem;"
       ></div>
     </div>
     <!-- Bài 2 -->
     <div class="container">
       <h3 class="bg-primary py-3 text-center">
-        TÍNH TỔNG CỦA X + X^2... X^N
+        BÀI 2: TÍNH TỔNG CỦA X + X^2... X^N
       </h3>
       <div class="row">
         <div class="form-group col-6">
-          <label for="">Nhập số X</label>
+          <label for="">Nhập số X:</label>
           <input
             type="number"
             name=""
@@ -47,7 +48,7 @@
           />
         </div>
         <div class="form-group col-6">
-          <label for="">Nhập số N</label>
+          <label for="">Nhập số N:</label>
           <input
             type="number"
             name=""
@@ -61,7 +62,60 @@
       <div
         id="result2"
         class="bg-danger text-center my-3 font-weight-bold"
+        style="font-size: 1.5rem;"
       ></div>
+    </div>
+
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 3: TÍNH GIAI THỪA CỦA SỐ N
+      </h3>
+      <div class="row">
+        
+        <div class="form-group col-12">
+          <label for="">Nhập số N:</label>
+          <input
+            type="number"
+            name=""
+            id="numberN"
+            class="form-control"
+            placeholder=""
+          />
+        </div>
+      </div>
+      <button id="handleGiaiThua" class="btn btn-success">Kết quả</button>
+      <div
+        id="result3"
+        class="bg-danger text-center my-3 font-weight-bold"
+        style="font-size: 1.5rem;"
+      ></div>
+    </div>
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 4: IN RA 10 THẺ DIV, THẺ CHẴN MẦU ĐỎ, THẺ LẺ MẦU XANH
+      </h3>
+      <button id="handleTheDiv" class="btn btn-success">In 10 thẻ div</button>
+      <div class="row my-3 container" id="result4" style="font-size: 1rem;">
+      </div>
+    </div>
+
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 5: IN RA TẤT CẢ SỐ NGUYÊN TỐ TỪ 1 ĐẾN N 
+      </h3>
+      <div class="form-group col-12">
+        <label for="">Nhập số N:</label>
+        <input
+          type="number"
+          name=""
+          id="numberNguyenTo"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <button id="handleSoNguyenTo" class="btn btn-success">In số nguyên tố</button>
+      <div class="bg-danger text-center my-3 font-weight-bold" style="font-size: 1.5rem;" id="result5">
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
