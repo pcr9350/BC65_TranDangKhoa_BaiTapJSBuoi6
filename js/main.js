@@ -94,7 +94,7 @@ b3:xuất ra file html
   // hàm kiểm tra số nguyên tố
 
   /**
-  *
+  * hàm kiểm tra số nguyên tố
   * @param (n): số truyền vào kiểm tra có phải số nguyên tố hay không
   * @return true hoặc false
   */
